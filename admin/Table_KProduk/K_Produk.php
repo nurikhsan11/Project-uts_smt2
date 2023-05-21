@@ -63,8 +63,8 @@ $rs = $dbh->query($sql);
                                 <td><?= $nomor ?></td>
                                 <td><?= $row['nama'] ?></td>
                                 <td>
-                                    <a class="btn btn-primary" href="index1.php?krupuk=Table_KProduk/view_KProduk&id=<?= $row['id'] ?>">View</a>
-                                    <a class="btn btn-secondary" href="index1.php?krupuk=Table_KProduk/form_KProduk&idedit=<?= $row['id'] ?>">Edit</a>
+                                    <a class="btn btn-primary" href="index.php?krupuk=Table_KProduk/view_KProduk&id=<?= $row['id'] ?>">View</a>
+                                    <a class="btn btn-secondary" href="index.php?krupuk=Table_KProduk/form_KProduk&idedit=<?= $row['id'] ?>">Edit</a>
                                     <a class="btn btn-danger" href="Table_KProduk/delete_KProduk.php?iddel=<?= $row['id'] ?>" onclick="if(!confirm('Anda Yakin Hapus Data Kategori Produk <?= $row['nama'] ?>?')) {return false}">Delete</a>
                                 </td>
                             </tr>
