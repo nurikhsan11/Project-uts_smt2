@@ -70,7 +70,7 @@ $row = $st->fetch();
                     <td><?= $row['deskripsi'] ?></td>
                 </tr>
                 <tr>
-                    <th>Produk ID</th>
+                    <th>Produk-ID</th>
                     <td><?= $row['produk_id'] ?></td>
                 </tr>
             </tbody>

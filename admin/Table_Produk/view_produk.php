@@ -74,7 +74,7 @@ $row = $st->fetch();
                     <td><?= $row['kategori_produk_id'] ?></td>
                 </tr>
                 <tr>
-                    <td>foto</td>
+                    <td>Foto</td>
                     <td><?= $row['foto'] ?></td>
                 </tr>
             </tbody>
